@@ -1,0 +1,17 @@
+﻿<Window x:Class="Chess.view.StartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chess.view"
+        mc:Ignorable="d"
+        Title="中国象棋" Height="450" Width="800"
+        Icon="/imgs/icon.ico"
+        >
+    <Grid>
+        <Button x:Name="aiGameBtn" Content="单人游戏" HorizontalAlignment="Left" Margin="565,175,0,0" VerticalAlignment="Top" Width="85" Height="40" Click="AiGameBtn_Clicked"/>
+        <Button x:Name="humanGameBtn" Content="双人游戏" HorizontalAlignment="Left" Margin="565,250,0,0" VerticalAlignment="Top" Width="85" Height="40" Click="HumanGameBtn_Clicked"/>
+        <Label Content="中&#xD;&#xA;国&#xD;&#xA;象&#xD;&#xA;棋" HorizontalAlignment="Left" Margin="142,119,0,0" VerticalAlignment="Top" Height="210" Width="98" FontSize="36" FontFamily="Source Code Pro Black"/>
+
+    </Grid>
+</Window>

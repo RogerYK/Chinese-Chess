@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess", "Chess\Chess.csproj", "{41C08A7E-A8AA-4E5A-A4C4-626EFBAEDD86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2ACCA981-003C-4032-9F4D-EAB65A466965}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41C08A7E-A8AA-4E5A-A4C4-626EFBAEDD86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C08A7E-A8AA-4E5A-A4C4-626EFBAEDD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C08A7E-A8AA-4E5A-A4C4-626EFBAEDD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C08A7E-A8AA-4E5A-A4C4-626EFBAEDD86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0F79B20-64E9-414F-A9DF-D572FE78F6C7}
+	EndGlobalSection
+EndGlobal
